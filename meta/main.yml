@@ -1,0 +1,24 @@
+galaxy_info:
+  namespace: tdworz
+  role_name: taiga
+  description: An Ansible role to set up Taiga
+  author: Tom Dworzanski (tdworz)
+  license: GPL-3.0-or-later
+  issue_tracker_url: https://github.com/tdworz/ansible-role-taiga/issues
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+  galaxy_tags:
+    - update
+    - upgrade
+    - apt
+    - dnf
+    - yum
+
+dependencies: []
